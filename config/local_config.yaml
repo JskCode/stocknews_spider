@@ -1,0 +1,13 @@
+kafka:
+  brokers:
+    - "192.168.0.135:9092"
+  topic: "news"
+redis:
+  host: "192.168.0.135"
+  port: 6379
+  db: 0
+news_url: "https://newsapi.eastmoney.com/kuaixun/v1/getlist_102_ajaxResult_50_1_.html"
+fetch_interval_seconds: 10
+min_delay: 1
+max_delay: 3
+max_retries: 3

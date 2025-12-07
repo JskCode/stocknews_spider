@@ -1,0 +1,4 @@
+requests>=2.0
+beautifulsoup4>=4.0
+kafka-python>=2.0
+PyYAML>=5.4
